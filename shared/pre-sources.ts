@@ -482,6 +482,11 @@ export const originSources = {
         type: "realtime",
         interval: Time.Fast,
       },
+      county: {
+        title: "县市区",
+        type: "realtime",
+        interval: Time.Fast,
+      },
     },
   },
   "wzpy": {

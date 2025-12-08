@@ -571,6 +571,15 @@
     "interval": 300000,
     "title": "要闻"
   },
+  "66wz-county": {
+    "name": "温州网",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://www.66wz.com/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "县市区"
+  },
   "wzpy": {
     "name": "温州辟谣",
     "type": "realtime",
