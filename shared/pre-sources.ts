@@ -95,13 +95,15 @@ export const originSources = {
     name: "36氪",
     type: "realtime",
     color: "blue",
-    // cloudflare pages cannot access
-    disable: "cf",
     home: "https://36kr.com",
     column: "tech",
     sub: {
       quick: {
         title: "快讯",
+      },
+      renqi: {
+        type: "hottest",
+        title: "人气榜",
       },
     },
   },
@@ -489,6 +491,14 @@ export const originSources = {
     column: "china",
     interval: Time.Realtime,
     type: "realtime",
+  },
+  "freebuf": {
+    name: "Freebuf",
+    column: "china",
+    title: "网络安全",
+    color: "green",
+    type: "hottest",
+    home: "https://www.freebuf.com/",
   },
 } as const satisfies Record<string, OriginSource>
 
