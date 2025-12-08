@@ -6,4 +6,9 @@ export default ourongxing({
   ignores: ["src/routeTree.gen.ts", "imports.app.d.ts", "public/", ".vscode", "**/*.json"],
 }).append(react({
   files: ["src/**"],
-}))
+})).append({
+  files: ["server/sources/**/*.ts"],
+  rules: {
+    "node/prefer-global/buffer": "off",
+  },
+})

@@ -1,4 +1,5 @@
 import { URL } from "node:url"
+import { Buffer } from "node:buffer"
 import * as cheerio from "cheerio"
 import iconv from "iconv-lite"
 import { myFetch } from "#/utils/fetch"

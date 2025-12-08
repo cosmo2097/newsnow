@@ -1,3 +1,4 @@
+import { Buffer } from "node:buffer"
 import { XMLParser } from "fast-xml-parser"
 import iconv from "iconv-lite"
 import { myFetch } from "#/utils/fetch"

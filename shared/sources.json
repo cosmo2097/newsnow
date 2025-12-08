@@ -509,5 +509,67 @@
     "color": "blue",
     "interval": 1800000,
     "title": "综合早报"
+  },
+  "wdapp": {
+    "redirect": "wdapp-yw",
+    "name": "温度新闻",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://wdapp.wzrb.com.cn/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "要闻"
+  },
+  "wdapp-yw": {
+    "name": "温度新闻",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://wdapp.wzrb.com.cn/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "要闻"
+  },
+  "wdapp-tj": {
+    "name": "温度新闻",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://wdapp.wzrb.com.cn/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "推荐"
+  },
+  "wzyby": {
+    "name": "温州园博园",
+    "column": "china",
+    "home": "https://www.wzyby.com/",
+    "color": "blue",
+    "interval": 600000
+  },
+  "66wz": {
+    "redirect": "66wz-main",
+    "name": "温州网",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://www.66wz.com/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "要闻"
+  },
+  "66wz-main": {
+    "name": "温州网",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://www.66wz.com/",
+    "color": "blue",
+    "interval": 300000,
+    "title": "要闻"
+  },
+  "wzpy": {
+    "name": "温州辟谣",
+    "type": "realtime",
+    "column": "china",
+    "home": "https://news.66wz.com/piyao/rdzt/index.shtml",
+    "color": "blue",
+    "interval": 120000
   }
 }

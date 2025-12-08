@@ -443,6 +443,53 @@ export const originSources = {
       },
     },
   },
+  "wdapp": {
+    name: "温度新闻",
+    color: "blue",
+    home: "https://wdapp.wzrb.com.cn/",
+    column: "china",
+    sub: {
+      yw: {
+        title: "要闻",
+        type: "realtime",
+        interval: Time.Fast,
+      },
+      tj: {
+        title: "推荐",
+        type: "realtime",
+        interval: Time.Fast,
+      },
+    },
+  },
+  "wzyby": {
+    name: "温州园博园",
+    color: "blue",
+    home: "https://www.wzyby.com/",
+    column: "china",
+  },
+  "66wz": {
+    name: "温州网",
+    color: "blue",
+    home: "https://www.66wz.com/",
+    column: "china",
+    interval: Time.Realtime,
+    type: "realtime",
+    sub: {
+      main: {
+        title: "要闻",
+        type: "realtime",
+        interval: Time.Fast,
+      },
+    },
+  },
+  "wzpy": {
+    name: "温州辟谣",
+    color: "blue",
+    home: "https://news.66wz.com/piyao/rdzt/index.shtml",
+    column: "china",
+    interval: Time.Realtime,
+    type: "realtime",
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
