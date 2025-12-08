@@ -449,7 +449,7 @@ export const originSources = {
     name: "温度新闻",
     color: "blue",
     home: "https://wdapp.wzrb.com.cn/",
-    column: "china",
+    column: "wenzhou",
     sub: {
       yw: {
         title: "要闻",
@@ -467,13 +467,13 @@ export const originSources = {
     name: "温州园博园",
     color: "blue",
     home: "https://www.wzyby.com/",
-    column: "china",
+    column: "wenzhou",
   },
   "66wz": {
     name: "温州网",
     color: "blue",
     home: "https://www.66wz.com/",
-    column: "china",
+    column: "wenzhou",
     interval: Time.Realtime,
     type: "realtime",
     sub: {
@@ -493,7 +493,7 @@ export const originSources = {
     name: "温州辟谣",
     color: "blue",
     home: "https://news.66wz.com/piyao/rdzt/index.shtml",
-    column: "china",
+    column: "wenzhou",
     interval: Time.Realtime,
     type: "realtime",
   },

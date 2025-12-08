@@ -521,7 +521,7 @@
     "redirect": "wdapp-yw",
     "name": "温度新闻",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://wdapp.wzrb.com.cn/",
     "color": "blue",
     "interval": 300000,
@@ -530,7 +530,7 @@
   "wdapp-yw": {
     "name": "温度新闻",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://wdapp.wzrb.com.cn/",
     "color": "blue",
     "interval": 300000,
@@ -539,7 +539,7 @@
   "wdapp-tj": {
     "name": "温度新闻",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://wdapp.wzrb.com.cn/",
     "color": "blue",
     "interval": 300000,
@@ -547,7 +547,7 @@
   },
   "wzyby": {
     "name": "温州园博园",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://www.wzyby.com/",
     "color": "blue",
     "interval": 600000
@@ -556,7 +556,7 @@
     "redirect": "66wz-main",
     "name": "温州网",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://www.66wz.com/",
     "color": "blue",
     "interval": 300000,
@@ -565,7 +565,7 @@
   "66wz-main": {
     "name": "温州网",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://www.66wz.com/",
     "color": "blue",
     "interval": 300000,
@@ -574,7 +574,7 @@
   "66wz-county": {
     "name": "温州网",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://www.66wz.com/",
     "color": "blue",
     "interval": 300000,
@@ -583,7 +583,7 @@
   "wzpy": {
     "name": "温州辟谣",
     "type": "realtime",
-    "column": "china",
+    "column": "wenzhou",
     "home": "https://news.66wz.com/piyao/rdzt/index.shtml",
     "color": "blue",
     "interval": 120000

@@ -3,6 +3,9 @@ import { typeSafeObjectEntries, typeSafeObjectFromEntries } from "./type.util"
 import type { ColumnID, HiddenColumnID, Metadata, SourceID } from "./types"
 
 export const columns = {
+  wenzhou: {
+    zh: "温州",
+  },
   china: {
     zh: "国内",
   },
