@@ -505,6 +505,74 @@ export const originSources = {
     type: "hottest",
     home: "https://www.freebuf.com/",
   },
+
+  "qqvideo": {
+    name: "腾讯视频",
+    column: "china",
+    color: "blue",
+    home: "https://v.qq.com/",
+    sub: {
+      "tv-hotsearch": {
+        title: "热搜榜",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://v.qq.com/channel/tv",
+
+      },
+    },
+  },
+  "iqiyi": {
+    name: "爱奇艺",
+    column: "china",
+    color: "green",
+    home: "https://www.iqiyi.com",
+    sub: {
+      "hot-ranklist": {
+        title: "热播榜",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://www.iqiyi.com",
+      },
+    },
+  },
+  "wechatmp": {
+    name: "微信公众号",
+    column: "wenzhou",
+    color: "green",
+    home: "https://mp.weixin.qq.com/",
+    sub: {
+      wzljl: {
+        title: "温州零距离",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      xianzheng: {
+        title: "咸蒸",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      wrzz: {
+        title: "温润之州",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      wawz: {
+        title: "我爱温州",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      oysk: {
+        title: "瓯越时刻",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
