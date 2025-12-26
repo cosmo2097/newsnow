@@ -571,6 +571,24 @@ export const originSources = {
         interval: Time.Common,
         home: "https://mp.weixin.qq.com/",
       },
+      wzlsyx: {
+        title: "温州楼市壹线",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      wzfsz: {
+        title: "温州房社长",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
+      wzcgxw: {
+        title: "温州草根消息",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
     },
   },
 } as const satisfies Record<string, OriginSource>

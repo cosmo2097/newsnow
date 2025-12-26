@@ -689,5 +689,32 @@
     "color": "green",
     "interval": 1800000,
     "title": "瓯越时刻"
+  },
+  "wechatmp-wzlsyx": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州楼市壹线"
+  },
+  "wechatmp-wzfsz": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州房社长"
+  },
+  "wechatmp-wzcgxw": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州草根消息"
   }
 }
