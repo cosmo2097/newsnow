@@ -716,5 +716,149 @@
     "color": "green",
     "interval": 1800000,
     "title": "温州草根消息"
+  },
+  "wechatmp-wzddd": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州叮叮当"
+  },
+  "wechatmp-wzdsb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州都市报"
+  },
+  "wechatmp-wzwb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州晚报"
+  },
+  "wechatmp-wzrb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "温州日报"
+  },
+  "wechatmp-ohfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "瓯海发布"
+  },
+  "wechatmp-lcfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "鹿城发布"
+  },
+  "wechatmp-lwfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "龙湾发布"
+  },
+  "wechatmp-dtfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "洞头发布"
+  },
+  "wechatmp-yjfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "永嘉发布"
+  },
+  "wechatmp-pyfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "平阳发布"
+  },
+  "wechatmp-cnfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "苍南发布"
+  },
+  "wechatmp-wcfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "文成发布"
+  },
+  "wechatmp-tsfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "泰顺发布"
+  },
+  "wechatmp-rafb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "瑞安发布"
+  },
+  "wechatmp-yqfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "乐清发布"
+  },
+  "wechatmp-lgfb": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "龙港发布"
   }
 }
