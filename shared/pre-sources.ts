@@ -492,10 +492,24 @@ export const originSources = {
   "wzpy": {
     name: "温州辟谣",
     color: "blue",
-    home: "https://news.66wz.com/piyao/rdzt/index.shtml",
+    home: "https://wzpy.66wz.com/",
     column: "wenzhou",
     interval: Time.Realtime,
     type: "realtime",
+    sub: {
+      main: {
+        title: "权威",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://news.66wz.com/piyao/rdzt/index.shtml",
+      },
+      local: {
+        title: "温州",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://news.66wz.com/piyao/rdzt/local/index.shtml",
+      },
+    },
   },
   "freebuf": {
     name: "Freebuf",

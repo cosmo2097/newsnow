@@ -4,9 +4,8 @@ import * as cheerio from "cheerio"
 import iconv from "iconv-lite"
 import { myFetch } from "#/utils/fetch"
 
-export default defineSource({
-  wzpy: defineSource(async () => {
-    const url = "https://news.66wz.com/piyao/rdzt/index.shtml"
+function getOrigin(url: string) {
+  return defineSource(async () => {
     const response = await myFetch(url, { responseType: "arrayBuffer" })
     const html = iconv.decode(Buffer.from(response), "gb2312")
     const $ = cheerio.load(html)
@@ -28,5 +27,11 @@ export default defineSource({
       .get()
 
     return items
-  }),
+  })
+}
+
+export default defineSource({
+  "wzpy": getOrigin("https://news.66wz.com/piyao/rdzt/index.shtml"),
+  "wzpy-main": getOrigin("https://news.66wz.com/piyao/rdzt/index.shtml"),
+  "wzpy-local": getOrigin("https://news.66wz.com/piyao/rdzt/local/index.shtml"),
 })

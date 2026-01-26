@@ -581,12 +581,32 @@
     "title": "县市区"
   },
   "wzpy": {
+    "redirect": "wzpy-main",
     "name": "温州辟谣",
     "type": "realtime",
     "column": "wenzhou",
     "home": "https://news.66wz.com/piyao/rdzt/index.shtml",
     "color": "blue",
-    "interval": 120000
+    "interval": 120000,
+    "title": "权威"
+  },
+  "wzpy-main": {
+    "name": "温州辟谣",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://news.66wz.com/piyao/rdzt/index.shtml",
+    "color": "blue",
+    "interval": 120000,
+    "title": "权威"
+  },
+  "wzpy-local": {
+    "name": "温州辟谣",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://news.66wz.com/piyao/rdzt/local/index.shtml",
+    "color": "blue",
+    "interval": 120000,
+    "title": "温州"
   },
   "freebuf": {
     "title": "网络安全",
