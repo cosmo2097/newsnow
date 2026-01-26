@@ -880,5 +880,38 @@
     "color": "green",
     "interval": 1800000,
     "title": "龙港发布"
+  },
+  "wzdsbapp": {
+    "redirect": "wzdsbapp-main",
+    "name": "掌上温州",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://wendu.cn/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "最温州"
+  },
+  "wzdsbapp-main": {
+    "name": "掌上温州",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://wendu.cn/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "最温州"
+  },
+  "wzrapp": {
+    "name": "温州人",
+    "column": "wenzhou",
+    "home": "https://wzqmt.com/",
+    "color": "green",
+    "interval": 600000
+  },
+  "raapp": {
+    "name": "天瑞地安",
+    "column": "wenzhou",
+    "home": "https://www.rabtv.cn/",
+    "color": "blue",
+    "interval": 600000
   }
 }

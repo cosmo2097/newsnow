@@ -701,6 +701,32 @@ export const originSources = {
       },
     },
   },
+  "wzdsbapp": {
+    name: "掌上温州",
+    column: "wenzhou",
+    color: "green",
+    home: "https://wendu.cn/",
+    sub: {
+      main: {
+        title: "最温州",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://wendu.cn/",
+      },
+    },
+  },
+  "wzrapp": {
+    name: "温州人",
+    column: "wenzhou",
+    color: "green",
+    home: "https://wzqmt.com/",
+  },
+  "raapp": {
+    name: "天瑞地安",
+    column: "wenzhou",
+    color: "blue",
+    home: "https://www.rabtv.cn/",
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
