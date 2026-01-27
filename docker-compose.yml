@@ -16,6 +16,7 @@ services:
       - INIT_TABLE=true
       - ENABLE_CACHE=true
       - PRODUCTHUNT_API_TOKEN=
+      - WECHAT2RSS_HOST=http://192.168.203.118:8088
 
 volumes:
   newsnow_data:
