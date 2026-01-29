@@ -2,6 +2,7 @@ import { myFetch } from "#/utils/fetch"
 
 interface WzdsbappItem {
   contentid: number
+  modelid: number
   title: string
   thumb: string
   sorttime: number
@@ -24,7 +25,7 @@ const getMain = defineSource(async () => {
     return {
       id: `${item.contentid}`,
       title: item.title,
-      url: `https://wap.wendu.cn/article/id/${item.contentid}`,
+      url: item.modelid === 10 ? `https://m.wendu.cn/special/${item.contentid}` : `https://wap.wendu.cn/article/id/${item.contentid}`,
       pubDate: item.sorttime ? new Date(item.sorttime * 1000).toISOString() : undefined,
       // extra: {
       //     img: item.thumb,
