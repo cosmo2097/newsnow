@@ -24,7 +24,7 @@ const getMain = defineSource(async () => {
     return {
       id: `${item.contentid}`,
       title: item.title,
-      url: `https://h5.wendu.cn/article/${item.contentid}`,
+      url: `https://wap.wendu.cn/article/id/${item.contentid}`,
       pubDate: item.sorttime ? new Date(item.sorttime * 1000).toISOString() : undefined,
       // extra: {
       //     img: item.thumb,
