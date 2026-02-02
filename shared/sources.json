@@ -910,7 +910,21 @@
   "raapp": {
     "name": "天瑞地安",
     "column": "wenzhou",
-    "home": "https://www.rabtv.cn/",
+    "home": "https://vapp.tmuyun.com/webChannels/tabs?tenantId=48",
+    "color": "blue",
+    "interval": 600000
+  },
+  "lcapp": {
+    "name": "掌上鹿城",
+    "column": "wenzhou",
+    "home": "https://vapp.tmuyun.com/webChannels/tabs?tenantId=28",
+    "color": "blue",
+    "interval": 600000
+  },
+  "lwapp": {
+    "name": "阅龙湾",
+    "column": "wenzhou",
+    "home": "https://vapp.tmuyun.com/webChannels/tabs?tenantId=51",
     "color": "blue",
     "interval": 600000
   }

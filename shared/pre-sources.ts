@@ -725,7 +725,19 @@ export const originSources = {
     name: "天瑞地安",
     column: "wenzhou",
     color: "blue",
-    home: "https://www.rabtv.cn/",
+    home: "https://vapp.tmuyun.com/webChannels/tabs?tenantId=48",
+  },
+  "lcapp": {
+    name: "掌上鹿城",
+    column: "wenzhou",
+    color: "blue",
+    home: "https://vapp.tmuyun.com/webChannels/tabs?tenantId=28",
+  },
+  "lwapp": {
+    name: "阅龙湾",
+    column: "wenzhou",
+    color: "blue",
+    home: "https://vapp.tmuyun.com/webChannels/tabs?tenantId=51",
   },
 } as const satisfies Record<string, OriginSource>
 
