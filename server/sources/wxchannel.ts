@@ -3,6 +3,11 @@ interface WdVideoItem {
   nickname: string
   objectDesc: {
     description: string
+    media: {
+      coverUrl: string
+      url: string
+      thumbUrl?: string
+    }[]
   }
   contact?: {
     liveCoverImgUrl?: string
@@ -18,11 +23,6 @@ interface WdVideoItem {
     }
   }
   createtime: number
-  media: {
-    coverUrl: string
-    url: string
-    thumbUrl?: string
-  }[]
 }
 
 interface WdVideoResponse {
@@ -46,11 +46,12 @@ function getChannel(username: string) {
     return list.map(item => ({
       id: item.id,
       title: item.objectDesc?.description || "No Title",
-      url: item.media?.[0]?.url || "#",
+      // url: item.objectDesc?.media?.[0]?.url || "#",
+      url: "#",
       pubDate: item.createtime * 1000,
       extra: {
         info: item.nickname,
-        liveCoverImgUrl: item.contact?.liveCoverImgUrl,
+        coverUrl: item.objectDesc?.media?.[0]?.coverUrl,
         countInfo: item.objectExtend?.monotonicData?.countInfo,
       },
     }))
