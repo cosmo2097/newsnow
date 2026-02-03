@@ -99,6 +99,13 @@ export interface NewsItem {
       url: string
       scale: number
     }
+    liveCoverImgUrl?: string
+    countInfo?: {
+      commentCount?: number
+      likeCount?: number
+      forwardCount?: number
+      favCount?: number
+    }
   }
 }
 

@@ -84,5 +84,11 @@
   "wzrapp": "wenzhouren",
   "raapp": "tianruidian",
   "lcapp": "zhangshanglucheng",
-  "lwapp": "yuelongwan"
+  "lwapp": "yuelongwan",
+  "wxchannel-wendu": "shipinhao-wenduxinwen",
+  "wxchannel-wzfabu": "shipinhao-wenzhoufabu",
+  "wxchannel-lcrongmei": "shipinhao-luchengrongmei",
+  "wxchannel-lwrongmei": "shipinhao-longwanrongmei",
+  "wxchannel-ohrongmei": "shipinhao-ouhairongmei",
+  "wxchannel-boruian": "shipinhao-boruian"
 }

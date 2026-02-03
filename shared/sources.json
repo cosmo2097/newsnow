@@ -927,5 +927,62 @@
     "home": "https://vapp.tmuyun.com/webChannels/tabs?tenantId=51",
     "color": "blue",
     "interval": 600000
+  },
+  "wxchannel": {
+    "redirect": "wxchannel-wendu",
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "温度新闻"
+  },
+  "wxchannel-wendu": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "温度新闻"
+  },
+  "wxchannel-wzfabu": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "温州发布"
+  },
+  "wxchannel-lcrongmei": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "鹿城融媒"
+  },
+  "wxchannel-lwrongmei": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "龙湾融媒"
+  },
+  "wxchannel-ohrongmei": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "瓯海融媒"
+  },
+  "wxchannel-boruian": {
+    "name": "视频号",
+    "column": "wenzhou",
+    "home": "https://channels.weixin.qq.com/",
+    "color": "blue",
+    "interval": 600000,
+    "title": "播瑞安"
   }
 }

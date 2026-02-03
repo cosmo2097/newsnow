@@ -739,6 +739,32 @@ export const originSources = {
     color: "blue",
     home: "https://vapp.tmuyun.com/webChannels/tabs?tenantId=51",
   },
+  "wxchannel": {
+    name: "视频号",
+    column: "wenzhou",
+    color: "blue",
+    home: "https://channels.weixin.qq.com/",
+    sub: {
+      wendu: {
+        title: "温度新闻",
+      },
+      wzfabu: {
+        title: "温州发布",
+      },
+      lcrongmei: {
+        title: "鹿城融媒",
+      },
+      lwrongmei: {
+        title: "龙湾融媒",
+      },
+      ohrongmei: {
+        title: "瓯海融媒",
+      },
+      boruian: {
+        title: "播瑞安",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

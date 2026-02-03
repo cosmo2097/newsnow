@@ -48,6 +48,7 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const wdapp: typeof import('./sources/wdapp')
   export const wechatmp: typeof import('./sources/wechatmp')
   export const weibo: typeof import('./sources/weibo')
+  export const wxchannel: typeof import('./sources/wxchannel')
   export const wzdsbapp: typeof import('./sources/wzdsbapp')
   export const wzpy: typeof import('./sources/wzpy')
   export const wzrapp: typeof import('./sources/wzrapp')
