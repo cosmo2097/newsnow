@@ -699,8 +699,8 @@ export const originSources = {
         interval: Time.Common,
         home: "https://mp.weixin.qq.com/",
       },
-      zfw: {
-        title: "住房网",
+      zww: {
+        title: "住温网",
         type: "realtime",
         interval: Time.Common,
         home: "https://mp.weixin.qq.com/",
