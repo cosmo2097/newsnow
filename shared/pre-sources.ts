@@ -699,6 +699,12 @@ export const originSources = {
         interval: Time.Common,
         home: "https://mp.weixin.qq.com/",
       },
+      zfw: {
+        title: "住房网",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
     },
   },
   "wzdsbapp": {
