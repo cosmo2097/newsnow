@@ -23,6 +23,7 @@ interface WdVideoItem {
     }
   }
   createtime: number
+  stickyTime?: number
 }
 
 interface WdVideoResponse {
@@ -41,7 +42,7 @@ function getChannel(username: string) {
     const url = `http://172.30.1.150:2026/api/channels/contact/feed/list?username=${username}`
     const res = await $fetch<WdVideoResponse>(url)
 
-    const list = res.data?.data?.object || []
+    const list = (res.data?.data?.object || []).filter(item => !item.stickyTime || item.stickyTime <= 0)
 
     return list.map(item => ({
       id: item.id,
