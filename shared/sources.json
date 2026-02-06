@@ -881,14 +881,14 @@
     "interval": 1800000,
     "title": "龙港发布"
   },
-  "wechatmp-zfw": {
+  "wechatmp-zww": {
     "name": "微信公众号",
     "type": "realtime",
     "column": "wenzhou",
     "home": "https://mp.weixin.qq.com/",
     "color": "green",
     "interval": 1800000,
-    "title": "住房网"
+    "title": "住温网"
   },
   "wzdsbapp": {
     "redirect": "wzdsbapp-main",
