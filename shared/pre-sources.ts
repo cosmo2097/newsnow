@@ -771,6 +771,39 @@ export const originSources = {
       },
     },
   },
+  "cctv": {
+    name: "央视新闻",
+    color: "red",
+    column: "wenzhou",
+    home: "https://search.cctv.com",
+    interval: Time.Common,
+    sub: {
+      "wenzhou": {
+        title: "温州",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://search.cctv.com/search.php?qtext=%E6%B8%A9%E5%B7%9E&type=video",
+      },
+      "xwlb": {
+        title: "新闻联播",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://news.cctv.com/xwlb/",
+      },
+      "xwlb-wenzhou": {
+        title: "新闻联播温州",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://news.cctv.com/xwlb/",
+      },
+      "hot": {
+        title: "热播榜",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://tv.cctv.com/top/index.shtml",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

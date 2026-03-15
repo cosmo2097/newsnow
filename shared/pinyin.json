@@ -91,5 +91,9 @@
   "wxchannel-lcrongmei": "shipinhao-luchengrongmei",
   "wxchannel-lwrongmei": "shipinhao-longwanrongmei",
   "wxchannel-ohrongmei": "shipinhao-ouhairongmei",
-  "wxchannel-boruian": "shipinhao-boruian"
+  "wxchannel-boruian": "shipinhao-boruian",
+  "cctv-wenzhou": "yangshixinwen-wenzhou",
+  "cctv-xwlb": "yangshixinwen-xinwenlianbo",
+  "cctv-xwlb-wenzhou": "yangshixinwen-xinwenlianbowenzhou",
+  "cctv-hot": "yangshixinwen-rebobang"
 }

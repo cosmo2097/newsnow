@@ -993,5 +993,51 @@
     "color": "blue",
     "interval": 600000,
     "title": "播瑞安"
+  },
+  "cctv": {
+    "redirect": "cctv-wenzhou",
+    "name": "央视新闻",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://search.cctv.com/search.php?qtext=%E6%B8%A9%E5%B7%9E&type=video",
+    "color": "red",
+    "interval": 1800000,
+    "title": "温州"
+  },
+  "cctv-wenzhou": {
+    "name": "央视新闻",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://search.cctv.com/search.php?qtext=%E6%B8%A9%E5%B7%9E&type=video",
+    "color": "red",
+    "interval": 1800000,
+    "title": "温州"
+  },
+  "cctv-xwlb": {
+    "name": "央视新闻",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://news.cctv.com/xwlb/",
+    "color": "red",
+    "interval": 1800000,
+    "title": "新闻联播"
+  },
+  "cctv-xwlb-wenzhou": {
+    "name": "央视新闻",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://news.cctv.com/xwlb/",
+    "color": "red",
+    "interval": 1800000,
+    "title": "新闻联播温州"
+  },
+  "cctv-hot": {
+    "name": "央视新闻",
+    "type": "hottest",
+    "column": "wenzhou",
+    "home": "https://tv.cctv.com/top/index.shtml",
+    "color": "red",
+    "interval": 1800000,
+    "title": "热播榜"
   }
 }
