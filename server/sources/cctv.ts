@@ -20,7 +20,7 @@ interface CCTVSearchRes {
 function createCCTVSearch(keyword: string) {
   return defineSource(async () => {
     const encodedKeyword = encodeURIComponent(keyword)
-    const url = `https://search.cctv.com/ifsearch.php?page=1&qtext=${encodedKeyword}&sort=relevance&pageSize=20&type=video&vtime=-1&datepid=1&channel=&pageflag=0&qtext_str=${encodedKeyword}`
+    const url = `https://search.cctv.com/ifsearch.php?page=1&qtext=${encodedKeyword}&sort=relevance&pageSize=20&type=video&vtime=-1&datepid=3&channel=&pageflag=0&qtext_str=${encodedKeyword}`
     const res = await myFetch<CCTVSearchRes>(url, {
       headers: {
         "Accept": "application/json, text/javascript, */*; q=0.01",
