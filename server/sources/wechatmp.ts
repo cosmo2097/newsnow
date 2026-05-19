@@ -28,4 +28,5 @@ export default defineSource({
   "wechatmp-yqfb": defineRSSSource(`${host}/feed/2393144905.xml`),
   "wechatmp-lgfb": defineRSSSource(`${host}/feed/3079351131.xml`),
   "wechatmp-zww": defineRSSSource(`${host}/feed/3237033630.xml`),
+  "wechatmp-qlsw": defineRSSSource(`${host}/feed/2395011960.xml`),
 })

@@ -705,6 +705,12 @@ export const originSources = {
         interval: Time.Common,
         home: "https://mp.weixin.qq.com/",
       },
+      qlsw: {
+        title: "柒零叁网",
+        type: "realtime",
+        interval: Time.Common,
+        home: "https://mp.weixin.qq.com/",
+      },
     },
   },
   "wzdsbapp": {
