@@ -11,7 +11,7 @@ const mainSite = defineSource(async () => {
   const html = iconv.decode(Buffer.from(response), "gb2312")
   const $ = cheerio.load(html)
   const items: NewsItem[] = $("#newslist ul li")
-    .map((i, el) => {
+    .map((_, el) => {
       const titleElement = $(el).find("a")
       const title = titleElement.text().trim()
       const relativeUrl = titleElement.attr("href") ?? ""
@@ -52,7 +52,7 @@ const countySite = defineSource(async () => {
   const html = iconv.decode(Buffer.from(response), "gb2312")
   const $ = cheerio.load(html)
   const items: NewsItem[] = $("#grid li")
-    .map((i, el) => {
+    .map((_, el) => {
       const titleElement = $(el).find("h4 a")
       const title = titleElement.text().trim()
       const relativeUrl = titleElement.attr("href") ?? ""

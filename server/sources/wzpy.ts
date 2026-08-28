@@ -10,7 +10,7 @@ function getOrigin(url: string) {
     const html = iconv.decode(Buffer.from(response), "gb2312")
     const $ = cheerio.load(html)
     const items = $("ul.newslist li")
-      .map((i, el) => {
+      .map((_, el) => {
         const titleElement = $(el).find("a")
         const title = titleElement.text().trim()
         const relativeUrl = titleElement.attr("href") ?? ""

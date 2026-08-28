@@ -890,6 +890,15 @@
     "interval": 1800000,
     "title": "住温网"
   },
+  "wechatmp-qlsw": {
+    "name": "微信公众号",
+    "type": "realtime",
+    "column": "wenzhou",
+    "home": "https://mp.weixin.qq.com/",
+    "color": "green",
+    "interval": 1800000,
+    "title": "柒零叁网"
+  },
   "wzdsbapp": {
     "redirect": "wzdsbapp-main",
     "name": "掌上温州",

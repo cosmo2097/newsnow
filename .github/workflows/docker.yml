@@ -6,6 +6,7 @@ on:
       - 'v*'
     branches:
       - my_dev
+      - my-dev
   workflow_dispatch:
 
 jobs:
@@ -56,5 +57,6 @@ jobs:
             linux/amd64
             linux/arm64
           push: true
+          provenance: false
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
